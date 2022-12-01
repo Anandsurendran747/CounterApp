@@ -67,7 +67,7 @@ function App() {
   }
   return (
     <Container>
-      <ResetButton>Reset</ResetButton>
+      <ResetButton onClick={()=>setnumber(0)}>Reset</ResetButton>
       <CounterContainer>
         <ButtonContainer onClick={() => clickEvent("-")}>
           <RemoveIcon fontSize="large" />
